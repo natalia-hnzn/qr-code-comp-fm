@@ -1,0 +1,39 @@
+.section-hero {
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  background-color: #fff;
+  padding: 1.6rem 1.6rem 4rem 1.6rem;
+  border-radius: 20px;
+}
+.hero-img {
+  width: 28.8rem;
+  border-radius: 10px;
+}
+
+.hero-text-box {
+  width: 28.8rem;
+}
+
+.section-footer {
+  display: flex;
+  align-self: center;
+  bottom: 0.4rem;
+  position: absolute;
+}
+.footer-text {
+  font-size: 1rem;
+  color: hsl(216, 15%, 48%);
+  margin-bottom: 0.2rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: hsl(218, 44%, 22%);
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
